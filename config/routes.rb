@@ -9,4 +9,6 @@ Rails.application.routes.draw do
     end
   end
 
+  get "/pages/:action" , :controller => "pages"
+
 end
